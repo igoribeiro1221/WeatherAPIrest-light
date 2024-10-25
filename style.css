@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(#4ba8ff, #005cb3);
+}
+
+.container {
+  background-color: white;
+  border-radius: 40px;
+  padding: 25px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.container .search-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #c5c5c5;
+  border-radius: 10px;
+  padding: 4px 12px; 
+}
+
+.container .search-box input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 15px;
+  flex: 1;
+}
+
+.container .search-box button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.city {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  color: rgb(54, 54, 54);
+}
+
+.bigger-box {
+  background:linear-gradient(90deg, #3a7fc0, #0062be);
+  border-radius: 20px;
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  color: rgb(240, 240, 240);
+}
+
+.bigger-box .img-prevision {
+  width: 100px;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+}
+
+.bigger-box .temp {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.bigger-box .weather {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.alert {
+  font-size: 15px;
+  display: none;
+}
+
+.small-box {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.small-box .box {
+display: flex;
+align-items: center;
+justify-content: start;
+padding: 10px 15px;
+gap: 10px;
+border-radius: 8px;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.small-box .box h2  {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.small-box .box i {
+  font-size: 20px;
+  width: 20%;
+  text-align: center;
+}
+
+#temp-high {
+  color: #7f1d1d;
+}
+
+#temp-low {
+  color: #0284c7;
+}
+
+#droplet {
+  color: #0ea5e9;
+}
+
+#wind { 
+  color: #7c3aed;
+}
+
+.hide {
+  display: none;
+}
+
+
